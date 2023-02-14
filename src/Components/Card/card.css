@@ -1,0 +1,71 @@
+/* Card Styling */
+
+.card {
+	background-color: transparent;
+	/* padding: 1rem; */
+    border: 0.05rem solid var(--gray-color);
+}
+
+.card-img {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.card-content {
+	padding: 2rem;
+}
+
+.card-header {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.card-text {
+	font-size: 1.4rem;
+	letter-spacing: 0.1rem;
+	color: var(--gray-color);
+}
+
+.card-btn {
+	display: block;
+	width: 98%;
+	padding: 1.5rem;
+	font-size: 1.4rem;
+	text-align: center;
+	color: var(--white-color);
+	background-color: var(--orange-color);
+	border: none;
+	border-radius: 0.5rem;
+	transition: 0.2s;
+	cursor: pointer;
+	letter-spacing: 0.1rem;
+	-webkit-border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-ms-border-radius: 0.5rem;
+	-o-border-radius: 0.5rem;
+}
+
+.card-btn span {
+	transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+	background-color: var(--orange-color);
+}
+
+
+.buy-btn {
+	width: 100%;
+padding: 1.5rem 1rem;
+}
+.card-hr {
+	margin: 0 !important;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
